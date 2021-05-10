@@ -3,12 +3,12 @@ package fs.apidef.identifyservice.java.java_homework1;
 public class Main {
 
     public static void main(String args[]) {
-        HinhChuNhat hcn = new HinhChuNhat();
-        hcn.dientichHCN();
-        hcn.chiviHCN();
+        Rectangle rectangle = new Rectangle();
+        rectangle.dienTichHCN();
+        rectangle.chuViHCN();
 
-        HinhTron hinhtron = new HinhTron();
-        double s = hinhtron.dienTichHinhTron();
-        double c = hinhtron.chuViHinhTron();
+        Circle circle = new Circle();
+        double s = circle.dienTichHinhTron();
+        double c = circle.chuViHinhTron();
     }
 }
